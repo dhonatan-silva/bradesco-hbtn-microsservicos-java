@@ -1,0 +1,22 @@
+O que é Spring Boot Framework?
+O Spring Boot é um framework que simplifica a criação e configuração de aplicações Java, sendo parte integrante do ecossistema Spring. Ele permite iniciar projetos rapidamente, com mínima configuração manual, promovendo agilidade e produtividade no desenvolvimento.
+
+Quais são os benefícios e recursos que Spring Boot fornece?
+Entre os principais benefícios estão a facilidade de configuração, que permite ao desenvolvedor focar na lógica de negócio, e a rápida inicialização de projetos.
+Alguns recursos oferecidos incluem:
+- Servidor embutido (como Tomcat) já configurado;
+- Uso de anotações para reduzir boilerplate;
+- Abstrações para integração com banco de dados, segurança, preenchimento de formulários, entre outros;
+- Suporte nativo a práticas modernas como REST APIs e microsserviços.
+
+
+Como é feita a adição de novas dependências (JPA, Hibernate, etc…) ?
+As dependências podem ser adicionadas diretamente no arquivo pom.xml (em projetos Maven) ou build.gradle (em projetos Gradle). Além disso, o Spring Boot oferece a opção Spring → Add Starters, que facilita a inclusão de módulos como JPA, Hibernate, Web, Security, entre outros, com configurações prontas para uso
+
+
+Na sua opinião, qual é a melhor IDE para trabalhar com o Spring Boot: Spring Tools Suites, IntelliJ IDEA, Eclipse ou NetBeans ?
+O Spring Tool Suite (STS) é uma excelente opção, pois é uma versão personalizada do Eclipse com suporte nativo ao Spring. Ele já vem com os principais plugins e ferramentas integradas, otimizando o desenvolvimento com Spring Boot. Alternativamente, o IntelliJ IDEA também é altamente recomendado por sua inteligência de código e integração avançada com o ecossistema Spring.
+
+
+O que é Spring Initializr?
+O Spring Initializr é uma ferramenta online que facilita a criação de projetos Spring Boot. Ele permite configurar rapidamente os detalhes iniciais do projeto — como dependências, linguagem, versão do Java e tipo de empacotamento — gerando um pacote pronto para importar na IDE e começar a desenvolver.
