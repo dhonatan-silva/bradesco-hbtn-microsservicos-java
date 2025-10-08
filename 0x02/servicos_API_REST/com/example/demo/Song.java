@@ -37,6 +37,23 @@ public class Song {
 		return Objects.equals(id, other.id);
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Song [id=");
+		builder.append(id);
+		builder.append(", nome=");
+		builder.append(nome);
+		builder.append(", artista=");
+		builder.append(artista);
+		builder.append(", album=");
+		builder.append(album);
+		builder.append(", anoLancamento=");
+		builder.append(anoLancamento);
+		builder.append("]");
+		return builder.toString();
+	}
+
 	public Integer getId() {
 		return id;
 	}
